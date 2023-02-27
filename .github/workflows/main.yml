@@ -17,9 +17,5 @@ jobs:
         with:
           flutter-version: '3.7.5'
       - run: flutter pub get
-  Build_APK:
-    steps:
       - run: flutter build apk
-  Build_AppBundle:
-    steps:
       - run: flutter build appbundle
