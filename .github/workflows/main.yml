@@ -13,7 +13,7 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '11'
-      - uses: ubsito/flutter-action@v2
+      - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.7.5'
       - run: flutter pub get
